@@ -1,0 +1,32 @@
+.stepsHeading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.stepsTitle {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #040814;
+}
+.stepsArrows {
+	display: flex;
+	gap: 15px;
+}
+.arrow {
+	cursor: pointer;
+}
+.stepsName {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #171b26;
+}
+.stepsPara {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #171b26;
+}

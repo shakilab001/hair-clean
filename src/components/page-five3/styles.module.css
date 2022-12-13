@@ -1,0 +1,58 @@
+.yourAnalysisHeading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.yourAnalysisTitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #040814;
+}
+.yourAnalysisArrows {
+	display: flex;
+	gap: 15px;
+}
+.arrow {
+	cursor: pointer;
+}
+.card {
+	color: #040814;
+	height: 140px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+.cardImage {
+	height: 100%;
+	border-radius: 10px;
+}
+
+.names {
+	position: absolute;
+	z-index: 30;
+	bottom: 0px;
+	left: 0px;
+	right: 0;
+	height: 100px;
+	background: linear-gradient(to bottom, transparent, 70%, rgb(39, 39, 39) );
+}
+.cardName {
+    bottom: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0px 2px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.cardTitle {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+}

@@ -1,0 +1,58 @@
+.unicorn svg{
+    width: auto !important;
+    height: 100vh !important;
+    /* margin-left: -20%; */
+}
+.analyzeBtn svg{
+    margin-top: -50px;
+    /* margin-bottom: -81.785px; */
+    margin-right: -50px !important;
+    width: auto !important;
+    height: 160px !important;
+    overflow: hidden;
+}
+.analyzeBtn{
+    height: 58px;
+}
+
+.mainButtonAreaWrapper{
+    overflow-x: hidden;
+    /* overflow-y: visible; */
+}
+
+@media all and (max-width:538px) {
+    .analyzeBtn svg{
+        margin-top: -35px;
+        /* margin-bottom: -81.785px; */
+        margin-right: -90px !important;
+        margin-left: -210px !important;
+        width: auto !important;
+        height: 120px !important;
+    }
+    .analyzeBtn{
+        /* background: red; */
+        height: 50px;
+    }
+}
+
+@media all and (max-width:900px) {
+    .unicorn svg{
+        width: auto !important;
+        height: 90vh !important;
+        margin-left: -20%;
+    }
+}
+@media all and (max-width:600px) {
+    .unicorn svg{
+        width: auto !important;
+        height: 70vh !important;
+        margin-left: -20%;
+    }
+}
+@media all and (max-width:380px) {
+    .unicorn svg{
+        width: auto !important;
+        height: 50vh !important;
+        margin-left: -20%;
+    }
+}

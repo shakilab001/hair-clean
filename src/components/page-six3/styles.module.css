@@ -1,0 +1,55 @@
+.videoHeading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 16px;
+}
+.videoTitle {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	color: #040814;
+}
+.videoArrows {
+	display: flex;
+	gap: 15px;
+}
+.arrow {
+	cursor: pointer;
+}
+.videoImage {
+	width: 100%;
+}
+.videoTitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #040814;
+}
+.authorName {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #171b26;
+	padding: 14px 0px;
+}
+.videoTime {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #171b26;
+}
+@media (max-width: 768px) {
+	.videoTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.authorName {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.videoTime {
+		font-size: 14px;
+		line-height: 21px;
+	}
+}

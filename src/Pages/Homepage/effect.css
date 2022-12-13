@@ -1,0 +1,118 @@
+.main-homepage .main-header-area {
+    padding: 40px 0px;
+    position: relative;
+}
+.main-homepage .mainBodyLeft {
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    z-index: -1;
+}
+.main-homepage .bodyTopEffect {
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    right: 0%;
+    top: -73px;
+    background: #00c9c9;
+    -webkit-filter: blur(400px);
+    filter: blur(400px);
+    z-index: -1;
+    opacity: 0.7;
+}
+.main-homepage .about-us-left-area {
+    position: relative;
+}
+.main-homepage .aboutUsEffect {
+    position: absolute;
+    width: 552px;
+    height: 552px;
+    left: -60%;
+    top: 0%;
+    background: #4583ff;
+    -webkit-filter: blur(400px);
+    filter: blur(400px);
+    z-index: -1;
+    opacity: 0.8;
+}
+.main-homepage .main-story-area {
+    position: relative;
+    background-color: #fff;
+}
+.main-homepage .storyBodyEffect {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 40%;
+    bottom: -10%;
+    background: #00c9c9;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    z-index: -1;
+}
+.main-homepage .storyBodyEffectUp {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.main-homepage .main-shop-area {
+    position: relative;
+}
+.main-homepage .shopBodyEffect {
+    position: absolute;
+    width: 423px;
+    height: 423px;
+    left: 35%;
+    top: 0%;
+    z-index: -1;
+    background: #a95bdd;
+    -webkit-filter: blur(400px);
+    filter: blur(400px);
+    opacity: 0.7;
+}
+.main-homepage .newsletter-detalis {
+    position: relative;
+}
+.main-homepage .newsLetterEffectUp {
+    position: absolute;
+    top: -67%;
+    left: -1%;
+}
+.main-homepage .newsLetterEffectDown {
+    position: absolute;
+    bottom: -38%;
+    right: -1%;
+}
+.main-homepage .main-body-section {
+    position: relative;
+}
+.main-homepage .profileBodyLeftEffect {
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    z-index: -1;
+}
+.main-homepage .bodyEffectBlueHere {
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    right: 0%;
+    top: 0%;
+    z-index: -1;
+    opacity: 0.7;
+    background: #00c9c9;
+    -webkit-filter: blur(400px);
+    filter: blur(400px);
+}
+.main-homepage .bodyEffectRedHere {
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    left: 50%;
+    top: 60%;
+    z-index: -1;
+    opacity: 0.4;
+    background: #4583ff;
+    -webkit-filter: blur(400px);
+    filter: blur(400px);
+}

@@ -1,0 +1,64 @@
+.blogTitle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 16px;
+}
+.blogHeading {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	color: #040814;
+}
+.blogArrows {
+	display: flex;
+	gap: 15px;
+}
+.arrow {
+	cursor: pointer;
+}
+
+.blogImage {
+	object-fit: cover;
+}
+.blogTitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #040814;
+}
+.authorName {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #171b26;
+	padding: 14px 0px;
+}
+.blogTime {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #171b26;
+}
+@media (max-width: 768px) {
+	.blogHeading {
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.arrow {
+		width: 25px;
+	}
+
+	.blogTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.authorName {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.blogTime {
+		font-size: 14px;
+		line-height: 21px;
+	}
+}

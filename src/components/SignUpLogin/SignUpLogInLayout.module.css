@@ -1,0 +1,49 @@
+.signup_logo_area {
+  background: linear-gradient(
+    156.21deg,
+    #ffa48f 2.26%,
+    #ff4793 19.49%,
+    #a65ce0 42.8%,
+    #5986e0 66.16%,
+    #00c9c9 87.87%
+  );
+  border-radius: 0px 0px 300px 300px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.signup_logo {
+  margin-bottom: 69px;
+}
+.form_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hairstyle_form_section {
+  padding: 107px 0 94px;
+}
+@media (max-width: 768px) {
+  .signup_logo_area {
+    padding-top: 29px;
+    margin: 0 100px;
+  }
+  .signup_logo {
+    margin-bottom: 4px;
+  }
+  .signup_svg {
+    padding: 0 23px;
+  }
+  .hairstyle_form_section {
+    padding: 24px 24px 50px;
+  }
+  .form_section {
+    align-items: unset;
+  }
+}
+@media (max-width: 576px) {
+  .signup_logo_area {
+    margin: 0;
+  }
+}

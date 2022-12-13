@@ -1,0 +1,84 @@
+.recommendationsHeading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.recommendationsTitle {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #040814;
+}
+
+.recommendationsArrows {
+	display: flex;
+	gap: 15px;
+}
+
+.arrow {
+	cursor: pointer;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 330px;
+	background: #00c9c9;
+	border-radius: 16px;
+}
+
+.cardImage {
+	border-radius: 16px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	min-height: 270px;
+	flex-basis: 70%;
+}
+
+.cardName {
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	background: #00c9c9;
+	border-radius: 16px;
+	padding: 16px 0px;
+	flex-basis: 30%;
+}
+
+@media (max-width: 768px) {
+	.recommendationsTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.recommendationsArrows {
+		display: none;
+	}
+}
+
+.backdrop {
+	animation-name: example;
+	animation-duration: 0.1s;
+}
+
+.modal {
+	animation-name: appear;
+	animation-duration: 1s;
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

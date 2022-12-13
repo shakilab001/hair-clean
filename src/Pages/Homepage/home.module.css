@@ -1,0 +1,39 @@
+.subscribe {
+    /* margin-left: -200px;
+    margin-right: -200px;*/
+    margin-top: -42px;
+    height: 148px;
+    /* position: absolute; */
+}
+
+.requestADemo svg {
+    height: 250px !important;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    /* margin-left: -90px; */
+}
+
+.getYourHairAnalysisRef {
+    /* width: 60px;
+    min-height: 70px; */
+    /* margin-top: -220px;
+    margin-bottom: -230px;
+    margin-left: -100px; */
+    margin-top: -40px;
+    margin-bottom: -80px;
+}
+
+@media screen and (max-width: 992px) {
+    /* .newsLetterForm{
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .subscribe{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -150px;
+        width: 400px;
+        margin-bottom: -100px;
+        position: relative;
+    } */
+}

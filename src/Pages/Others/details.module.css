@@ -1,0 +1,9 @@
+.detailImageWrapper {
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.detailImageWrapper img {
+    border-radius: 14px;
+}

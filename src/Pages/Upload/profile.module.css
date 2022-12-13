@@ -1,0 +1,44 @@
+.toggleWrapperBox {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.toggleDeactive {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px;
+    gap: 10px;
+    width: 41px;
+    height: 20px;
+    background: linear-gradient(100.82deg, #FFA48F 1.32%, #FF4793 21.18%, #A65CE0 48.04%, #5986E0 74.97%, #00C9C9 100%);
+    border-radius: 40px;
+    /* margin-bottom: 15px; */
+}
+
+.toggleActive {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px;
+    gap: 10px;
+    width: 41px;
+    height: 20px;
+    background: linear-gradient(100.82deg, #FFA48F 1.32%, #FF4793 21.18%, #A65CE0 48.04%, #5986E0 74.97%, #00C9C9 100%);
+    border-radius: 40px;
+    /* margin-bottom: 15px; */
+}
+
+.ellipse {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    /* White */
+    background: #FFFFFF;
+}

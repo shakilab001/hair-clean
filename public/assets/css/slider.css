@@ -1,0 +1,15 @@
+.swiper-button-next,
+.swiper-button-prev {
+    top: 5%;
+    z-index: 10 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: transparent;
+}
+
+.swiper-button-prev {
+    left: auto;
+    margin-right: 60px;
+}

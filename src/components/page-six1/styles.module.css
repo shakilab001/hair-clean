@@ -1,0 +1,43 @@
+.productHeading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.productTitle {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #040814;
+}
+.productArrows {
+	display: flex;
+	gap: 15px;
+}
+.arrow {
+	cursor: pointer;
+}
+.productCardnames {
+	text-align: center;
+}
+.productCardName {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #171b26;
+}
+.productCardTitle {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #00c9c9;
+}
+@media (max-width: 768px) {
+	.productTitle {
+		font-size: 20px;
+	}
+	.productArrows {
+		display: none;
+	}
+}
