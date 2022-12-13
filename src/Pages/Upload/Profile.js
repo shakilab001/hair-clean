@@ -114,7 +114,7 @@ const Profile = () => {
                 <div className="bodyBlueEffect" />
                 <div className="profile-img-details">
                   <h1>
-                    Hello, <span style={{ color: "#00C9C9" }}>{firstName}!</span>
+                    Helloooo, <span style={{ color: "#00C9C9" }}>{firstName}!</span>
                   </h1>
                   <p>Layla AI put this together just for you</p>
                   <div className="thank-you-notice">
