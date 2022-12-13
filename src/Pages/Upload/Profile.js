@@ -5,20 +5,12 @@ import Footer from "../../components/Footer";
 import PageFiveScroll1 from "../../components/page-five";
 import PageFiveScroll2 from "../../components/page-five2";
 import PageFiveScroll3 from "../../components/page-five3";
-import { useGetHairDescription } from "../../hooks/useGetVideoAnimation";
 import jwt_decode from "jwt-decode";
 import "./effect.css";
 import styles from './profile.module.css'
+
+
 const Profile = () => {
-  //   const { data, refetch, isLoading } = useGetHairDescription();
-  //   console.log(data);
-  //   useEffect(() => {
-  //     (async () => {
-  //       const response = await refetch();
-  //       console.log("inside useEffect");
-  //       console.log("===> ~ file: Profile.js ~ line 14 ~ response", response);
-  //     })();
-  //   }, [refetch]);
 
   const videoURL = JSON.parse(localStorage.getItem("hairDescription"));
   const questionierId = localStorage.getItem("questionierId");

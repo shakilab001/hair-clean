@@ -47,7 +47,9 @@ export const uploadSubmit = async (selectedImage) => {
 const submitImages = (selectedImage) => {
     let imgComplete = 0
     localStorage.setItem('imgComplete', imgComplete)
-    let videoAnimationURL, hairDescriptionURL, hairDensityURL
+
+    let videoAnimationURL, newHairDescriptionURL, oldHairDescriptionURL, hairDensityURL
+
     console.log(
         "===> ~ file: Upload.js ~ line 23 ~ handleSubmission ~ selectedImage",
         selectedImage
@@ -74,6 +76,11 @@ const submitImages = (selectedImage) => {
             throw new Error(error);
         });
 
+
+
+
+
+    // ======================== Get old data ========================
     axios
         .post(`https://ai-models.myhairdays.com/upload-file-async`, formData, {
             headers: {
@@ -91,6 +98,29 @@ const submitImages = (selectedImage) => {
         .catch((error) => {
             throw new Error(error);
         });
+    // ======================== Get new data ========================
+    axios
+        .post(`https://ai-models.myhairdays.com/upload-file-async`, formData, {
+            headers: {
+                "Content-Type": "multipart/form-data",
+                "Authorization": 'Bearer ' + token,
+            },
+        })
+        .then((result) => {
+            hairDescriptionURL = result.data
+            const HairDescriptionjsonURL = JSON.stringify(hairDescriptionURL);
+            localStorage.setItem("hairDescription", HairDescriptionjsonURL);
+            imgComplete += 1
+            localStorage.setItem('imgComplete', imgComplete)
+        })
+        .catch((error) => {
+            throw new Error(error);
+        });
+
+
+
+
+
     axios
         .post(`https://hair-density.myhairdays.com/v1/hair-density`, formData, {
             headers: {

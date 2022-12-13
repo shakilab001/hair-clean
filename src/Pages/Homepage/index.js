@@ -206,7 +206,7 @@ const Homepage = () => {
             <div className="hero-left-area col-lg-6 col-12">
               <div className="hero-text">
                 <h2>
-                  Welcomeee to <br /> AI Analytics
+                  Welcomee tooo <br /> AI Analytics
                 </h2>
                 <h1>HairDays</h1>
                 <p>
